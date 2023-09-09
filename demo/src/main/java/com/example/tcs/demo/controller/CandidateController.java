@@ -40,5 +40,11 @@ public class CandidateController {
         return "Registration Successfully";
     }
 
-
+    @PostMapping("/Home")
+    public String Home(){
+        System.out.println();
+        return "This is a homepage";
+    }
 }
+
+
